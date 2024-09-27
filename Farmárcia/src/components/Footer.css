@@ -1,0 +1,27 @@
+footer{
+
+    box-shadow: 1px 1px 10px #e96a7e;
+    background-color: #ffff;
+
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    
+
+
+
+}
+
+.infos{
+
+color: #ce1f3a;
+padding: 30px;
+
+}
+
+.LogoFooter{
+
+width: 200px;
+
+
+}
+
