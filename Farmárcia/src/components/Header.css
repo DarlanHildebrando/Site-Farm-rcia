@@ -3,7 +3,9 @@ header{
 
 display: flex;
 background-color: #ffffff;
-box-shadow: 1px 1px 10px #e96a7e;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+position: fixed;
+width: 100%;
 
 
 
@@ -29,6 +31,16 @@ border: solid 2px #e23e57 ;
 width: 150px;
 font-weight: bold;
 border-radius: 10px;
+transition: background-color 1.5 ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Infos:hover{
+background-color: #ce1f3a; 
+color: #ffff;
+border: none;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 

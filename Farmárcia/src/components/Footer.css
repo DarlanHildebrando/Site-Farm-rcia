@@ -1,6 +1,6 @@
 footer{
 
-    box-shadow: 1px 1px 10px #e96a7e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #ffff;
 
     font-family: "Poppins", sans-serif;
@@ -14,7 +14,7 @@ footer{
 .infos{
 
 color: #ce1f3a;
-padding: 30px;
+margin-left: 20px;
 
 }
 

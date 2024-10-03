@@ -1,17 +1,34 @@
 import React from 'react'
 import './Body.css'
 import Cards from './Cards'
+import { Link } from 'react-router-dom'
+
 
 function Body() {
   return (
     <div className='Corpo'>
-      <h1 className='Letras'>Bem vindos à Farmárcia.</h1>
-      <h4 className='Letras'>Cuidando da sua saúde com confiança e carinho!</h4>
+
+      <div className='ContainerDividido'>
+
+      <div className='MetadeComFrase'>
+
+        <h5>Cuidando da sua saúde com confiança e carinho!</h5>
+
+      <Link to='/SaibaMais'><button className='Button'>Saiba mais!</button></Link>
+
+      </div>
+
+      <div className='MetadeComLogo'>
+      
+      <img className='LogoGrande' src="./img/farmarcia.avif" alt="" />
+      
+      </div>
+
+      
+
+</div>
 
 
-      <br /><br /><br /><br />
-
-      <Cards/>
      
     </div>
   )

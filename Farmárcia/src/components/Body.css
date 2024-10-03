@@ -5,7 +5,62 @@ color: #e23e57;
 background-color: #b6b6b6;
 font-weight: bolder;
 font-size: 30px;
-padding-bottom: 800px;
+padding-bottom: 200px;
 
 }
 
+.ContainerDividido{
+display: flex;
+margin-top: 200px;
+width: 800px;
+margin-left: 255px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+background-color: #ffff;
+border-radius: 10px;
+padding: 20px;
+
+}
+
+.MetadeComFrase{
+
+background-color: #ffff;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+font-size: 35px;
+}
+
+.LogoGrande{
+
+width: 80%;
+
+}
+
+.MetadeComLogo{
+
+background-color: #ffff;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+.Button{
+
+width: 150px;
+background-color: #ce1f3a;
+border: none;
+padding: 5px;
+border-radius: 5px;
+font-size: 20px;
+color: #ffff;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+
+
+}
+
+.Button:hover{
+
+transform: scale(1.2);
+
+
+}

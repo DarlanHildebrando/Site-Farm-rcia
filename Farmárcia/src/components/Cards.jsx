@@ -15,25 +15,14 @@ function Cards() {
 
             </div>
 
+            
+
+              <button className='Comprar'>Comprar</button>
+
+
 
         </div>
 
-        <div className='BordaCard'>
-
-            <img className='ImgFarm' src="./img/farmarcia-placa.avif" alt="" />
-
-            <div className='InfoProduto'>
-
-             Placa Farmárcia
-
-             <br /><br />
-
-             Endereço: Rua Agostinho Carrara 666
-
-            </div>
-
-
-        </div>
       
 
 </div>
